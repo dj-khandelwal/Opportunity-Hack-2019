@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Welcome to GetSewa</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+	<div class="row">
+		<div class="twelve columns">
+		<img src="images/sewa-logo.png" align="left"/>
+		<div class="gadgetStyleBody " style="padding-top:20px;padding-left:300px;" data-areaheight="auto">
+
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+			
+			<i class="fa fa-phone" style="color:#ff7300; font-size:23px"></i> <span style="color:#1e477a; font-size:23px">&nbsp;708-872-7392 &nbsp; &nbsp; &nbsp;  &nbsp;</span>
+			<i class="fa fa-envelope" style="color:#ff7300; font-size:23px"></i><span style="color:#1e477a; font: size 23px">&nbsp;&nbsp;info@sewausa.org</span>
+			
+			 </div>	
+			 		<p text-align="right"><h2 style = "font-family:'Arimo', sans-serif !important;padding-top:0px;padding-left:280px;">Welcome to GetSewa USA !</h2></p>
+
+	</div>
+	</div>
+	
+	<div class="row">
+		<div class="twelve columns">
+			<ul class="nav-bar">
+ 		 		<li><a href="Index.html">Home</a></li>
+				<li class="active"><a href="NewRequest.html">New Request</a></li>
+				<li><a href="VolunteerDashboard.html">Volunteer Login</a></li>  
+				<li><a href="AdminDashboard.html">Admin Login</a></li>
+				<li><a href="Status.html">View Request Status</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- don't mind this script, I just added them for fun! -->
+	<script charset="ISO-8859-1" src="http://fast.wistia.com/static/popover-v1.js"></script>
+	
+
+
+	<div class="row">
+		<div class="twelve columns">
+			<div class="row">
+				<div class="eight columns">
+					<div class="container">
+						<!-- <form onSubmit = "submitRequest()"> -->
+						  <div class="row">
+							<div class="col-25">
+								<label for="category">Category</label>
+							  </div>
+							  <div class="col-75">
+								<select id="category" name="Category" required>
+									<option disabled selected value> -- Select An Option -- </option>
+								  <option value="family">Family Services</option>
+								  <option value="volunteer">Volunteering Activity</option>
+								  <option value="disaster">Disaster Relief</option>
+								</select>
+							  </div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+							  <label for="fname">Full Name</label>
+							</div>
+							<div class="col-75">
+							  <input type="text" id="fname" name="fullname" placeholder="Your full name please">
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+							  <label for="fname">Location</label>
+							</div>
+							<div class="col-75">
+							  <input type="text" id="location" name="location" placeholder="Please enter nearest location for help">
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+								<label for="phNo">Phone Number</label>
+							  </div>
+							  <div class="col-75">
+								<input type="text" id="phNo" name="phone" placeholder="Your phone number">
+							  </div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+							  <label for="problem">Problem/Requirement</label>
+							</div>
+							<div class="col-75">
+							  <textarea id="problem" name="problem" placeholder="Please describe your requirment in detail so that we can help you effectively!" style="height:200px"></textarea>
+							</div>
+						  </div>
+						  <div class="row" text-align = "center">
+							<button class="submitButton" onclick = "submitRequest()">Submit</button>
+						</div>
+						<div id = "form-validation-message" style = "margin-top: 15px; margin-left: 15px;"></div>
+						<!-- </form> -->
+					  </div> 					
+				</div>
+		
+				<div class="four columns">
+					
+					<br />
+					<hr />
+					<img src="images/ad-banner.png" />
+					<hr />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+		<hr />
+		<p align="center">Sewa International P.O. Box 820867, Houston, Texas | Ph: 77282-0867 | Tax ID: 20-0638718</p>
+		</div>
+	</div>
+</body>
+<script src = "javascripts/script.js"></script>
+
+</html>
+

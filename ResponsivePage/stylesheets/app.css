@@ -1,0 +1,145 @@
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+ /* Style inputs, select elements and textareas */
+ input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #1e477a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .submitButton {
+    background-color: #1e477a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2% 40% 0%;
+    cursor: pointer;
+    width: 20%;
+  }
+
+  .button2 {
+    background-color: #1e477a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5% 30% 5%;
+    cursor: pointer;
+    width: 40%;
+  }
+
+  #dynamic-display {
+    margin-left: 10px; 
+  }
+  #approval-display {
+    margin-left: 10px; 
+  }
+  .task-block {
+    margin: 8px;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 1px; 
+    cursor: pointer;
+    height: 20px;
+  }
+/* Size for the map widget */
+  #mapid { height: 450px; }
+  /* These below settings for the progress bar on the Search Requests page. */
+  .w3-round-xlarge{border-radius:16px; height: 25px;}
+  .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#1e477a!important;background-color:#dadada !important}
+  .w3-blue,.w3-hover-blue:hover{color:#ffffff !important;background-color:#1e477a!important;text-align: center;padding-top: 5px;}
+  .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+  #statusUpdate{margin: 20px 20px 20px 20px;}
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  } 
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+  /* Full-width input fields */
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+

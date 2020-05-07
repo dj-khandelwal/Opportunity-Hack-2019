@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Welcome to GetSewa</title>
+
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+
+  <script src='javascripts/modernizr.foundation.js'></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+	<div class="row">
+		<div class="twelve columns">
+		<img src="images/sewa-logo.png" align="left"/>
+		<div class="gadgetStyleBody " style="padding-top:20px;padding-left:300px;" data-areaheight="auto">
+
+			<link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+			
+			
+			<i class="fa fa-phone" style="color:#ff7300; font-size:23px"></i> <span style="color:#1e477a; font-size:23px">&nbsp;708-872-7392 &nbsp; &nbsp; &nbsp;  &nbsp;</span>
+			<i class="fa fa-envelope" style="color:#ff7300; font-size:23px"></i><span style="color:#1e477a; font: size 23px">&nbsp;&nbsp;info@sewausa.org</span>
+			
+			 </div>	
+			 		<p text-align="right"><h2 style = "font-family:'Arimo', sans-serif !important;padding-top:0px;padding-left:280px;">Welcome to GetSewa USA !</h2></p>
+
+	</div>
+	</div>
+	
+	<div class="row">
+		<div class="twelve columns">
+			<ul class="nav-bar">
+ 		 		<li><a href="Index.html">Home</a></li>
+				<li class="active"><a href="#">Admin Dashboard</a></li>
+				<li><a href="AdminApproval.html">Requiring your attention</a></li> 
+				<li><a href="TelegramInvite.html">Import/Export</a></li>  
+				<li><a href="Index.html">Logout</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- don't mind this script, I just added them for fun! -->
+	<script charset="ISO-8859-1" src='http://fast.wistia.com/static/popover-v1.js'></script>
+	
+	<div class="row">
+		<div class="twelve columns">
+			<div class="row">
+				<div class="eight columns">
+					<div class="container">
+						<p style = "font-size: 18px">Please check the below stats for this month:</p>
+						<table id = "month-stats" style="width:100%">
+								<tr>
+								  <th>Awaiting Approval</th>
+								  <th>Waiting for Assignment</th>
+								  <th>In Progress</th>
+								  <th>Completed</th>
+								</tr>
+								<tr>
+								  <td align="center" id = "awaiting-approval"></td>
+								  <td id = "assigned"></td>
+								  <td id = "in-progress"></td>
+								  <td id = "completed"></td>
+								</tr>
+								
+						</table>
+						<hr>
+						<div id="mapid"></div> 
+					</div> 					
+				</div>
+		
+				<div class="four columns">
+					
+					<br />
+					<hr />
+						<blockquote class=“trello-board-compact”>
+							<a href='https://www.trello.com/b/G6hVH436/sewausa'><img src="images/Trello_logo.jpg" /></a>
+						  </blockquote>
+						  <script src='https://p.trellocdn.com/embed.min.js'></script>
+					<hr />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+		<hr />
+		<p align="center">Sewa International P.O. Box 820867, Houston, Texas | Ph: 77282-0867 | Tax ID: 20-0638718</p>
+		</div>
+	</div>
+</body>
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src='https://unpkg.com/leaflet@1.5.1/dist/leaflet.js'
+integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+crossorigin=""></script>
+<script src = "javascripts/script.js"></script>
+
+</html>
